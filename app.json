@@ -3,8 +3,7 @@
   "description": "Simple WhatsApp Botto.",
   "logo": "https://i.imgur.com/JMsAFRD.jpeg",
   "keywords": "Asta",
-  "success_url": "/astro/",
-  "app_url": "/qr/",
+  "success_url": "/",
   "stack": "container",
 
   "env": {
@@ -16,7 +15,7 @@
 
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
+      "value": "true",
       "required": false
     },
 
@@ -34,6 +33,11 @@
       "description": "Put TIME_ZONE according to your location",
       "required": false,
       "value": "Africa/Lagos"
+    },
+    "MENU_BTN":{
+      "description": "Show Buttons On Menu",
+      "required": false,
+      "value": "0"
     },
     "FLUSH": {
       "description": " Make it 'true' if bot connected but not responed (After deployement!)",

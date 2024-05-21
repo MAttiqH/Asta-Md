@@ -18,6 +18,7 @@ global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va7lbQmAojZ
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va7lbQmAojZ1iLmyL52D" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/44a074435240435608ee4.jpg" ;
 global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024" 
+global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
 
 
 global.devs = "2348039607375"
@@ -53,7 +54,7 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348039607375";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348039607375";
 
-global.api_smd = "https://api-smd.onrender.com"
+global.api_smd = "https://api-amd.onrender.com"
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
